@@ -1,7 +1,7 @@
 import XCTest
-@testable import LZFounation
+@testable import LZFoundation
 
-final class LZFounationTests: XCTestCase {
+final class LZFoundationTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
