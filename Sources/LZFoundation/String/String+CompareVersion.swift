@@ -1,5 +1,3 @@
-import Foundation
-
 public extension String {
     // 判斷版本號是否大於(必須為相同格式版本號, 數字與.的組合)
     func isGreaterThan(version: String) -> Bool {

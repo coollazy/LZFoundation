@@ -1,5 +1,3 @@
-import Foundation
-
 public extension Array {
     // 切割 Arry
     func slice(_ from: Int = 0, _ size: Int) -> [Element] {
