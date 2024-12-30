@@ -5,10 +5,17 @@ import PackageDescription
 
 let package = Package(
     name: "LZFoundation",
+    platforms: [
+        .iOS(.v12),
+        .macOS(.v10_13),
+    ],
     products: [
         .library(
             name: "LZFoundation",
-            targets: ["LZFoundation"]),
+            targets: [
+                "LZFoundation"
+            ]
+        ),
     ],
     targets: [
         .target(
