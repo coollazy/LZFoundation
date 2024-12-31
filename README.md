@@ -9,7 +9,7 @@ Extensions of Native Foundation
 - Package.swift 的 dependencies 增加
 
 ```
-.package(name: "LZFoundation", url: "https://github.com/coollazy/LZFoundation.git", .upToNextMajor(from: "3.0.0")),
+.package(name: "LZFoundation", url: "https://github.com/coollazy/LZFoundation.git", .upToNextMajor(from: "1.0.1")),
 ```
 
 - target 的 dependencies 增加
