@@ -1,2 +1,22 @@
 # LZFoundation
-The Extensions of Native Foundation 
+
+Extensions of Native Foundation 
+
+# How to install
+
+### SPM
+
+- Package.swift 的 dependencies 增加
+
+```
+.package(name: "LZFoundation", url: "https://github.com/coollazy/LZFoundation.git", .upToNextMajor(from: "3.0.0")),
+```
+
+- target 的 dependencies 增加
+
+```
+.product(name: "LZFoundation", package: "LZFoundation"),
+```
+
+# How to use
+
