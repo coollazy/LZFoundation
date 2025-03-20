@@ -5,6 +5,14 @@ public extension String {
         URL(fileURLWithPath: self)
     }
     
+    func toFileURL() -> URL {
+        URL(fileURLWithPath: self)
+    }
+    
+    func toRemoteURL() -> URL? {
+        URL(string: self)
+    }
+    
     var pathComponents: [String] {
         url.pathComponents
     }
